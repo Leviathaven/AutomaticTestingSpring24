@@ -1,15 +1,21 @@
-#Фреймворк для автоматического тестирования сайта artnow.ru
+# Framework for automated testing of artnow.ru
 
-Для запуска программы необходимо ввести команду следующего формата:
+To run use this:
 
-'mvn clean test -Dbrowser=chrome'
+```
+mvn clean test -Dbrowser=chrome
+```
 
-В параметре Dbrowser также можно указать firefox, при необходимости запуска тестов в Mozilla Firefox
+In Dbrowser you can also use firefox, if you need to run the tests in Mozilla Firefox
 
-Для генерации отчёта к команде выше нужно добавить:
+To generate a report add this to the command above:
 
-'allure:report'
+```
+allure:report
+```
 
-Для отображения графического отчёта необходимо запустить команду:
+To view the allure report use this:
 
-'mvn allure:serve'
+```
+mvn allure:serve
+```
