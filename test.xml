@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests">
+    <test name="Browser Tests">
+        <classes>
+            <class name="test.BaseTest"/>
+            <class name="test.CartTest"/>
+            <class name="test.CategoryTest1"/>
+            <class name="test.CategoryTest2"/>
+            <class name="test.FavoriteTest"/>
+            <class name="test.SearchTest"/>
+        </classes>
+    </test>
+</suite>
