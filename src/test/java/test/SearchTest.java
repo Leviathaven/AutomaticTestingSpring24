@@ -24,7 +24,7 @@ public class SearchTest extends BaseTest {
 
             Allure.step("Entering the word \"Giraffe\" into the search input");
             searchPage.searchInput().clear();
-            searchPage.searchInput().sendKeys("Giraffe");
+            searchPage.searchInput().sendKeys("Жираф");
 
             Allure.step("Clicking the search button and navigating to the new page");
             searchPage.searchButton().click();
